@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/issued"
+            android:title="Issued books" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/all_books"
+            android:title="Available books" />
+        <item
+            android:id="@+id/res"
+            android:icon="@drawable/available_books"
+            android:title="Reserved books" />
+        <item
+            android:id="@+id/qr"
+            android:icon="@drawable/qr"
+            android:title="Generate QR code" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+    </group>
+
+
+
+</menu>
